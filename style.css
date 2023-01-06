@@ -812,26 +812,69 @@ footer .footer-icon .fa-brands:hover {
         height: 35vh;
     }
     #home .home-text .home-first-text {
-        font-size: 1.1rem;
+        font-size: 1.4rem;
     }
     #home .home-text .home-second-text {
-        font-size: 2.5rem;
+        font-size: 2.9rem;
         padding-bottom: 1rem;
     }
     #home .home-text .home-tab-bar .continent-dropdown,
     #home .home-text .home-tab-bar .country-dropdown,
     #home .home-text .home-tab-bar .budget-dropdown,
     #home .home-text .home-tab-bar .search-tour {
-        width: 8rem;
+        width: 10rem;
+        height: 2.7rem;
+        line-height: 2.7rem;
+        font-size: .9rem;
+    }
+    #home .home-text .home-tab-bar .continent-dropdown .continent-dropdown-list,
+    #home .home-text .home-tab-bar .country-dropdown .country-dropdown-list,
+    #home .home-text .home-tab-bar .budget-dropdown .budget-dropdown-list {
+        width: 9.9rem;
+        bottom: -11.8rem;
+    }
+    #home .home-text .home-tab-bar .country-dropdown,
+    #home .home-text .home-tab-bar .budget-dropdown {
+        padding: 0 .8rem;
+    }
+    #home .home-text .home-tab-bar .fa-sort-down {
+        margin-top: -.4rem;
+    }
+    #offer .offer-box-container .offer-box {
+        width: 18rem;
+        height: 14rem;
+        margin: 0 .5rem .5rem 0;
+    }
+    #offer .offer-box-container .offer-box .offer-text {
+        font-size: 1.3rem;
+    }
+}
+
+@media(max-width:320px) {
+    #home {
+        height: 35vh;
+    }
+    #home .home-text .home-first-text {
+        font-size: 1.2rem;
+    }
+    #home .home-text .home-second-text {
+        font-size: 2.7rem;
+        padding-bottom: 1rem;
+    }
+    #home .home-text .home-tab-bar .continent-dropdown,
+    #home .home-text .home-tab-bar .country-dropdown,
+    #home .home-text .home-tab-bar .budget-dropdown,
+    #home .home-text .home-tab-bar .search-tour {
+        width: 8.6rem;
         height: 2.5rem;
-        line-height: 2.5rem;
+        line-height: 2.7rem;
         font-size: .7rem;
     }
     #home .home-text .home-tab-bar .continent-dropdown .continent-dropdown-list,
     #home .home-text .home-tab-bar .country-dropdown .country-dropdown-list,
     #home .home-text .home-tab-bar .budget-dropdown .budget-dropdown-list {
-        width: 7.9rem;
-        bottom: -10.3rem;
+        width: 8.5rem;
+        bottom: -11.8rem;
     }
     #home .home-text .home-tab-bar .country-dropdown,
     #home .home-text .home-tab-bar .budget-dropdown {
@@ -842,7 +885,7 @@ footer .footer-icon .fa-brands:hover {
     }
     #offer .offer-box-container .offer-box {
         width: 16rem;
-        height: 13rem;
+        height: 12rem;
         margin: 0 .5rem .5rem 0;
     }
     #offer .offer-box-container .offer-box .offer-text {
